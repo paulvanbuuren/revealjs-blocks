@@ -1,0 +1,56 @@
+{
+  "name": "paulvanbuuren/revealjs-blocks",
+  "description": "Plugin to edit and display presentations via a WordPress site. Inspired by github.com/abstractwp/slide",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "authors": [
+    {
+      "name": "Paul van Buuren",
+      "email": "paul@wbvb.nl"
+    },
+    {
+      "name": "Thong Dang",
+      "email": "thong@anabstractny.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "hakimel/reveal.js",
+        "version": "5.2.1",
+        "type": "library",
+        "dist": {
+          "url": "https://github.com/hakimel/reveal.js/archive/refs/tags/5.2.1.zip",
+          "type": "zip"
+        }
+      }
+    }
+  ],
+  "config": {
+    "platform": {
+      "php": "8.3"
+    },
+    "allow-plugins": {
+      "composer/installers": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "require": {
+    "composer/installers": "^1.11.0",
+    "hakimel/reveal.js": "5.2.1"
+
+  },
+  "require-dev": {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
+    "phpcompatibility/phpcompatibility-wp": "^2.1",
+    "wp-coding-standards/wpcs": "^3.4"
+  },
+  "scripts": {
+    "format": "phpcbf --report=summary,source",
+    "lint": "phpcs -s",
+    "post-install-cmd": "@copy-revealjs",
+    "post-update-cmd": "@copy-revealjs",
+    "copy-revealjs": "rm -rf assets/revealjs && cp -R vendor/hakimel/reveal.js/dist assets/revealjs"
+  }
+}
