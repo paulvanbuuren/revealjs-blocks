@@ -37,10 +37,9 @@
     }
   },
   "require": {
-    "hakimel/reveal.js": "5.2.1"
-
   },
   "require-dev": {
+    "hakimel/reveal.js": "5.2.1",
     "dealerdirect/phpcodesniffer-composer-installer": "^0.7.1",
     "phpcompatibility/phpcompatibility-wp": "^2.1",
     "wp-coding-standards/wpcs": "^3.4"
