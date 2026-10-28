@@ -1,0 +1,538 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: WBVB - Presentation Block\n"
+"POT-Creation-Date: 2026-10-28 15:52+0100\n"
+"PO-Revision-Date: 2026-10-28 15:52+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: nl_NL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.10\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Domain: wbvb-portfolio\n"
+"X-Poedit-WPHeader: wbvb-revealjs-blocks.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+"X-Poedit-SearchPathExcluded-1: node_modules\n"
+"X-Poedit-SearchPathExcluded-2: vendor\n"
+
+#. Plugin Name of the plugin/theme
+#: wbvb-revealjs-blocks.php:3
+msgid "WBVB - Presentation Block"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+#: wbvb-revealjs-blocks.php:4
+msgid "https://github.com/paulvanbuuren/revealjs-blocks"
+msgstr ""
+
+#. Description of the plugin/theme
+#: wbvb-revealjs-blocks.php:5
+msgid ""
+"Creates a custom post type 'presentation', which will render as a "
+"presentation on the front end using Reveal.js."
+msgstr ""
+
+#. Author of the plugin/theme
+#: wbvb-revealjs-blocks.php:7
+msgid "Paul van Buuren"
+msgstr ""
+
+#. Author URI of the plugin/theme
+#: wbvb-revealjs-blocks.php:8
+msgid "https://wbvb.nl/"
+msgstr ""
+
+#: build/js/index.js:371 src/js/font-weight-picker.js:9
+msgid "Thin"
+msgstr ""
+
+#: build/js/index.js:375 src/js/font-weight-picker.js:10
+msgid "Extra Light"
+msgstr ""
+
+#: build/js/index.js:379 src/js/font-weight-picker.js:11
+msgid "Light"
+msgstr ""
+
+#: build/js/index.js:383 src/js/font-weight-picker.js:12
+msgid "Normal"
+msgstr ""
+
+#: build/js/index.js:387 src/js/font-weight-picker.js:13
+msgid "Medium"
+msgstr ""
+
+#: build/js/index.js:391 src/js/font-weight-picker.js:14
+msgid "Semi Bold"
+msgstr ""
+
+#: build/js/index.js:395 src/js/font-weight-picker.js:15
+msgid "Bold"
+msgstr ""
+
+#: build/js/index.js:399 src/js/font-weight-picker.js:16
+msgid "Extra Bold"
+msgstr ""
+
+#: build/js/index.js:403 src/js/font-weight-picker.js:17
+msgid "Black"
+msgstr ""
+
+#: build/js/index.js:445 build/js/index.js:652 src/js/block-attributes.js:55
+#: src/js/block.js:115
+msgid "Font"
+msgstr ""
+
+#: build/js/index.js:449 build/js/index.js:1031 build/js/index.js:1051
+#: src/js/block-attributes.js:60 src/js/plugin.js:279 src/js/plugin.js:304
+msgid "Font Family"
+msgstr ""
+
+#: build/js/index.js:455 build/js/index.js:1062 src/js/block-attributes.js:66
+#: src/js/plugin.js:316
+msgid "Font Weight"
+msgstr ""
+
+#: build/js/index.js:536 build/js/index.js:541 src/js/fragment.js:9
+#: src/js/fragment.js:15
+msgid "Slide Fragment"
+msgstr ""
+
+#: build/js/index.js:585 src/js/block.js:25
+msgid "Presentation Block"
+msgstr ""
+
+#: build/js/index.js:586 src/js/block.js:27
+msgid ""
+"With this blocks you can form your slide deck! You can override document "
+"level setting for each slide block."
+msgstr ""
+
+#: build/js/index.js:590
+msgid "Presentation"
+msgstr ""
+
+#: build/js/index.js:640 build/js/index.js:973 src/js/block.js:95
+#: src/js/plugin.js:206
+msgid "Add New Slide"
+msgstr ""
+
+#: build/js/index.js:641 src/js/block.js:101
+msgid "Speaker Notes"
+msgstr ""
+
+#: build/js/index.js:645 src/js/block.js:106
+msgid "Anything you want to remember."
+msgstr ""
+
+#: build/js/index.js:656 build/js/index.js:1042 src/js/block.js:120
+#: src/js/plugin.js:291
+msgid "Color"
+msgstr ""
+
+#: build/js/index.js:668 build/js/index.js:699 build/js/index.js:735
+#: build/js/index.js:1147 src/js/block.js:135 src/js/block.js:184
+#: src/js/block.js:240 src/js/plugin.js:434
+msgid "Remove"
+msgstr ""
+
+#: build/js/index.js:669 build/js/index.js:673 build/js/index.js:1072
+#: src/js/block.js:141 src/js/block.js:146 src/js/plugin.js:331
+msgid "Background Color"
+msgstr ""
+
+#: build/js/index.js:679 build/js/index.js:743 build/js/index.js:778
+#: build/js/index.js:797 build/js/index.js:1087 build/js/index.js:1169
+#: src/js/block.js:153 src/js/block.js:254 src/js/block.js:297
+#: src/js/block.js:327 src/js/plugin.js:352 src/js/plugin.js:468
+msgid "Opacity"
+msgstr ""
+
+#: build/js/index.js:700 build/js/index.js:1104 src/js/block.js:190
+#: src/js/plugin.js:374
+msgid "Background Image"
+msgstr ""
+
+#: build/js/index.js:724 build/js/index.js:1133 src/js/block.js:221
+#: src/js/plugin.js:412
+msgid "Change"
+msgstr ""
+
+#: build/js/index.js:724 build/js/index.js:1133 src/js/block.js:222
+#: src/js/plugin.js:413
+msgid "Add Background Image"
+msgstr ""
+
+#: build/js/index.js:736 build/js/index.js:1148 src/js/block.js:246
+#: src/js/plugin.js:440
+msgid "Focal Point Picker"
+msgstr ""
+
+#: build/js/index.js:752 src/js/block.js:268
+msgid "Size"
+msgstr ""
+
+#: build/js/index.js:756 src/js/block.js:271
+msgid "Cover"
+msgstr ""
+
+#: build/js/index.js:760 src/js/block.js:272
+msgid "Contain"
+msgstr ""
+
+#: build/js/index.js:768 src/js/block.js:283
+msgid "Background Iframe"
+msgstr ""
+
+#: build/js/index.js:772 src/js/block.js:288
+msgid "Iframe URL"
+msgstr ""
+
+#: build/js/index.js:787 src/js/block.js:313
+msgid "Background SVG"
+msgstr ""
+
+#: build/js/index.js:806 src/js/block.js:343
+msgid "Visibility"
+msgstr ""
+
+#: build/js/index.js:810 src/js/block.js:348
+msgid "Hide Slide"
+msgstr ""
+
+#: build/js/index.js:851 src/js/block.js:417
+msgid "Speaker notes"
+msgstr ""
+
+#: build/js/index.js:976 src/js/plugin.js:213
+msgid "Setup"
+msgstr ""
+
+#: build/js/index.js:982 src/js/plugin.js:219
+msgid "Standard 4:3"
+msgstr ""
+
+#: build/js/index.js:986 src/js/plugin.js:220
+msgid "Widescreen 16:9"
+msgstr ""
+
+#: build/js/index.js:998 src/js/plugin.js:231
+msgid "Contain view to dimensions"
+msgstr ""
+
+#: build/js/index.js:999 src/js/plugin.js:233
+msgid ""
+"This can be useful if positions from background and full width blocks must "
+"be preserved."
+msgstr ""
+
+#: build/js/index.js:1009 src/js/plugin.js:246
+msgid "Horizontal Padding"
+msgstr ""
+
+#: build/js/index.js:1014 src/js/plugin.js:253
+msgid "Vertical Padding"
+msgstr ""
+
+#: build/js/index.js:1021 src/js/plugin.js:264
+msgid "Base Font"
+msgstr ""
+
+#: build/js/index.js:1024 src/js/plugin.js:268
+msgid "Font Size"
+msgstr ""
+
+#: build/js/index.js:1048 src/js/plugin.js:300
+msgid "Heading Font"
+msgstr ""
+
+#: build/js/index.js:1069 src/js/plugin.js:327
+msgid "Background"
+msgstr ""
+
+#: build/js/index.js:1083 src/js/plugin.js:343
+msgid "Experimental:"
+msgstr ""
+
+#: build/js/index.js:1088 build/js/index.js:1170 src/js/plugin.js:353
+#: src/js/plugin.js:469
+msgid "May be overridden by the block!"
+msgstr ""
+
+#: build/js/index.js:1186 src/js/plugin.js:490
+msgid "Color Palette"
+msgstr ""
+
+#: build/js/index.js:1189 src/js/plugin.js:495
+msgid ""
+"Comma separated list of color values. Please refresh the page to be able to "
+"use the palette."
+msgstr ""
+
+#: build/js/index.js:1195 src/js/plugin.js:506
+msgid "Custom CSS"
+msgstr ""
+
+#: build/js/index.js:1203 src/js/plugin.js:520
+msgid "Transition"
+msgstr ""
+
+#: build/js/index.js:1206 src/js/plugin.js:524
+msgid "Transition Style"
+msgstr ""
+
+#: build/js/index.js:1210 build/js/index.js:1240 src/js/plugin.js:526
+#: src/js/plugin.js:539
+msgid "None"
+msgstr ""
+
+#: build/js/index.js:1214 build/js/index.js:1244 src/js/plugin.js:527
+#: src/js/plugin.js:540
+msgid "Fade"
+msgstr ""
+
+#: build/js/index.js:1218 build/js/index.js:1248 src/js/plugin.js:528
+#: src/js/plugin.js:541
+msgid "Slide"
+msgstr ""
+
+#: build/js/index.js:1222 build/js/index.js:1252 src/js/plugin.js:529
+#: src/js/plugin.js:542
+msgid "Convex"
+msgstr ""
+
+#: build/js/index.js:1226 build/js/index.js:1256 src/js/plugin.js:530
+#: src/js/plugin.js:543
+msgid "Concave"
+msgstr ""
+
+#: build/js/index.js:1230 build/js/index.js:1260 src/js/plugin.js:531
+#: src/js/plugin.js:544
+msgid "Zoom"
+msgstr ""
+
+#: build/js/index.js:1236 src/js/plugin.js:537
+msgid "Background Transition Style"
+msgstr ""
+
+#: build/js/index.js:1266 src/js/plugin.js:551
+msgid "Transition Speed"
+msgstr ""
+
+#: build/js/index.js:1270 src/js/plugin.js:553
+msgid "Default"
+msgstr ""
+
+#: build/js/index.js:1274 src/js/plugin.js:554
+msgid "Fast"
+msgstr ""
+
+#: build/js/index.js:1278 src/js/plugin.js:555
+msgid "Slow"
+msgstr ""
+
+#: build/js/index.js:1286 src/js/plugin.js:566
+msgid "Controls"
+msgstr ""
+
+#: build/js/index.js:1289 src/js/plugin.js:570
+msgid "Control Arrows"
+msgstr ""
+
+#: build/js/index.js:1293 src/js/plugin.js:576
+msgid "Progress Bar"
+msgstr ""
+
+#: build/js/index.js:1299 src/js/plugin.js:586
+msgid "PDF (Experimental)"
+msgstr ""
+
+#: build/js/index.js:1306 src/js/plugin.js:598
+msgid "Print (Save as PDF)."
+msgstr ""
+
+#: build/js/index.js:1306 src/js/plugin.js:601
+msgid "Enable backgrounds and remove margins."
+msgstr ""
+
+#: build/js/template.js:1 src/js/template.js:89
+msgid "Fullscreen"
+msgstr ""
+
+#: build/js/template.js:1 src/js/template.js:92
+msgid "Speaker View"
+msgstr ""
+
+#: includes/register.php:9 wbvb-revealjs-blocks.php:447
+msgctxt "Post type general name"
+msgid "Presentations"
+msgstr "Presentaties"
+
+#: includes/register.php:10
+msgctxt "Post type singular name"
+msgid "Presentation"
+msgstr "Presentatie"
+
+#: includes/register.php:11
+msgctxt "Admin Menu text"
+msgid "Presentations"
+msgstr "Presentaties"
+
+#: includes/register.php:12
+msgctxt "Add New on Toolbar"
+msgid "Presentation"
+msgstr "Presentatie"
+
+#: includes/register.php:13
+msgid "Add New"
+msgstr ""
+
+#: includes/register.php:14
+msgid "Add New Presentation"
+msgstr ""
+
+#: includes/register.php:15
+msgid "New Presentation"
+msgstr ""
+
+#: includes/register.php:16
+msgid "Edit Presentation"
+msgstr ""
+
+#: includes/register.php:17
+msgid "View Presentation"
+msgstr ""
+
+#: includes/register.php:18
+msgid "All Presentations"
+msgstr ""
+
+#: includes/register.php:19
+msgid "Search Presentations"
+msgstr ""
+
+#: includes/register.php:20
+msgid "Parent Presentations:"
+msgstr ""
+
+#: includes/register.php:21
+msgid "No presentations found."
+msgstr ""
+
+#: includes/register.php:22
+msgid "No presentations found in Trash."
+msgstr ""
+
+#: includes/register.php:23
+msgctxt ""
+"Overrides the “Featured Image” phrase for this post type. Added in 4.3"
+msgid "Presentation Cover Image"
+msgstr ""
+
+#: includes/register.php:24
+msgctxt ""
+"Overrides the “Set featured image” phrase for this post type. Added in 4.3"
+msgid "Set cover image"
+msgstr ""
+
+#: includes/register.php:25
+msgctxt ""
+"Overrides the “Remove featured image” phrase for this post type. Added in 4.3"
+msgid "Remove cover image"
+msgstr ""
+
+#: includes/register.php:26
+msgctxt ""
+"Overrides the “Use as featured image” phrase for this post type. Added in 4.3"
+msgid "Use as cover image"
+msgstr ""
+
+#: includes/register.php:27
+msgctxt ""
+"The post type archive label used in nav menus. Default “Post Archives”. "
+"Added in 4.4"
+msgid "Presentation archives"
+msgstr ""
+
+#: includes/register.php:28
+msgctxt ""
+"Overrides the “Insert into post”/”Insert into page” phrase (used when "
+"inserting media into a post). Added in 4.4"
+msgid "Insert into presentation"
+msgstr ""
+
+#: includes/register.php:29
+msgctxt ""
+"Overrides the “Uploaded to this post”/”Uploaded to this page” phrase (used "
+"when viewing media attached to a post). Added in 4.4"
+msgid "Uploaded to this presentation"
+msgstr ""
+
+#: includes/register.php:30
+msgctxt ""
+"Screen reader text for the filter links heading on the post type listing "
+"screen. Default “Filter posts list”/”Filter pages list”. Added in 4.4"
+msgid "Filter presentations list"
+msgstr ""
+
+#: includes/register.php:31
+msgctxt ""
+"Screen reader text for the pagination heading on the post type listing "
+"screen. Default “Posts list navigation”/”Pages list navigation”. Added in 4.4"
+msgid "Presentations list navigation"
+msgstr ""
+
+#: includes/register.php:32
+msgctxt ""
+"Screen reader text for the items list heading on the post type listing "
+"screen. Default “Posts list”/”Pages list”. Added in 4.4"
+msgid "Presentations list"
+msgstr ""
+
+#: patterns/home.php:11
+msgid "Home slide"
+msgstr ""
+
+#: speaker.php:22
+msgid "Upcoming"
+msgstr ""
+
+#: speaker.php:25
+msgid "Previous"
+msgstr ""
+
+#: speaker.php:26
+msgid "Next"
+msgstr ""
+
+#: speaker.php:28 src/js/block.js:31
+msgid "wbvb-presentation"
+msgstr ""
+
+#: speaker.php:32
+msgid "Time"
+msgstr ""
+
+#: speaker.php:36
+msgid "Click to Reset"
+msgstr ""
+
+#: speaker.php:43
+msgid "Notes"
+msgstr ""
+
+#: wbvb-revealjs-blocks.php:403
+msgctxt "Slide patterns category"
+msgid "Slide"
+msgstr ""
+
+#~ msgctxt "Post type singular name"
+#~ msgid "presentation"
+#~ msgstr "Presentatie"
