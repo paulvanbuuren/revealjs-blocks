@@ -1,19 +1,18 @@
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: WBVB - Presentation Block\n"
-"POT-Creation-Date: 2026-10-28 15:31+0100\n"
-"PO-Revision-Date: 2026-10-28 15:31+0100\n"
+"POT-Creation-Date: 2026-10-30 13:45+0100\n"
+"PO-Revision-Date: 2026-10-30 13:47+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
+"Language: nl_NL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "X-Generator: Poedit 3.10\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
-"X-Domain: wbvb-portfolio\n"
+"X-Domain: wbvb-presentation\n"
 "X-Poedit-WPHeader: wbvb-revealjs-blocks.php\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: "
@@ -36,7 +35,7 @@ msgstr ""
 #. Description of the plugin/theme
 #: wbvb-revealjs-blocks.php:5
 msgid ""
-"Creates a custom post type 'wbvb-presentation', which will render as a "
+"Creates a custom post type 'presentation', which will render as a "
 "presentation on the front end using Reveal.js."
 msgstr ""
 
@@ -371,49 +370,49 @@ msgstr ""
 msgid "Speaker View"
 msgstr ""
 
-#: includes/register.php:9
+#: includes/register.php:9 wbvb-revealjs-blocks.php:449
 msgctxt "Post type general name"
 msgid "Presentations"
-msgstr ""
+msgstr "Presentaties"
 
 #: includes/register.php:10
 msgctxt "Post type singular name"
-msgid "wbvb-presentation"
-msgstr ""
+msgid "Presentation"
+msgstr "Presentatie"
 
 #: includes/register.php:11
 msgctxt "Admin Menu text"
 msgid "Presentations"
-msgstr ""
+msgstr "Presentaties"
 
 #: includes/register.php:12
 msgctxt "Add New on Toolbar"
-msgid "wbvb-presentation"
-msgstr ""
+msgid "Presentation"
+msgstr "Presentatie"
 
 #: includes/register.php:13
 msgid "Add New"
-msgstr ""
+msgstr "Presentatie toevoegen"
 
 #: includes/register.php:14
 msgid "Add New Presentation"
-msgstr ""
+msgstr "NIeuwe presentatie toevoegen"
 
 #: includes/register.php:15
 msgid "New Presentation"
-msgstr ""
+msgstr "NIeuwe presentatie"
 
 #: includes/register.php:16
 msgid "Edit Presentation"
-msgstr ""
+msgstr "Presentatie bewerken"
 
 #: includes/register.php:17
 msgid "View Presentation"
-msgstr ""
+msgstr "Presentatie bekijken"
 
 #: includes/register.php:18
 msgid "All Presentations"
-msgstr ""
+msgstr "Alle presentaties"
 
 #: includes/register.php:19
 msgid "Search Presentations"

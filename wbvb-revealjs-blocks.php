@@ -437,15 +437,13 @@ add_action( 'init', __NAMESPACE__ . '\remove_block_patterns_support' );
 
 
 
-function wbvb_pres_load_textdomain() {
-	load_plugin_textdomain(
-		'wbvb-presentation',
-		false,
-		dirname( plugin_basename( __FILE__ ) ) . '/languages'
-	);
-
-//	echo '<h1>Le poepie kakkie ' . _x( 'Presentations', 'Post type general name', 'wbvb-presentation' ) . '</h1>';
-
-}
-
-add_action( 'init',__NAMESPACE__ . '\wbvb_pres_load_textdomain' );
+// Register presentation custom post type.
+add_action( 'init',
+	function () {
+		load_plugin_textdomain(
+			'wbvb-presentation',
+			false,
+			dirname( plugin_basename( __FILE__ ) ) . '/languages'
+		);
+	}
+);
